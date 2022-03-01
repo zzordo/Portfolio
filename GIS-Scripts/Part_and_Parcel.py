@@ -1,3 +1,10 @@
+"""
+Created By:    Zachary Ordo
+Created Date:  2018-09-14
+Last Modified: 2018-09-14
+This ArcGIS Python Script was created to automate the generation of exhibit maps in ArcMap as an alternative to ArcGIS Production Mapping and Data Driven Pages.
+"""
+
 import arcpy
 from arcpy import env
 
