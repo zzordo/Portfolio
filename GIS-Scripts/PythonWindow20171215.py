@@ -1,3 +1,10 @@
+"""
+Created By:    Zachary Ordo
+Created Date:  2017-12-15
+Last Modified: 2017-12-15
+This ArcGIS Python Script was created to describe data sources in an MXD file and print output for analysis and troubleshooting.
+"""
+
 import arcpy
 import os
 workspace = os.path.dirname("ROW Areas")
@@ -205,5 +212,3 @@ for field in fields:
     print field.name + " - " + field.domain
     if field.name == "Route_Type" and field.domain != "":
         cvdList = [d.codedValues for d in arcpy.da.ListDomains(thisGDB) if d.name == field.domain]
-        
-
