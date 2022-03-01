@@ -1,3 +1,10 @@
+"""
+Source:         https://support.esri.com/en/technical-article/000011751
+Date Obtained:  2019-02-14
+This ArcGIS Python Script is used to remove Geoprocessing History from a Geodatabase in the event metadata buildup is identified as a possible cause of poor
+performance in ArcMap.
+"""
+
 import arcpy
 import os, string
 
