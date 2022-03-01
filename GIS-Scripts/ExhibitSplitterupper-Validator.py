@@ -1,7 +1,7 @@
 """
 Created By:    Zachary Ordo
-Created Date:  2017-12-20
-Last Modified: 2017-12-20
+Created Date:  2017-12-15
+Last Modified: 2017-12-15
 This ArcGIS Python Validator Script is used to control the behavior of the dialog box for the Exhibit Splitter-Upper tool.
 """
 
